@@ -1,0 +1,68 @@
+[
+    {
+        "_id": "f120d9f9-24c3-40c2-8c98-7c4acc5854bd",
+        "colId": "history",
+        "containerId": "",
+        "name": "https://localhost:3000/quizzes/1",
+        "url": "http://localhost:3000/quizzes/1",
+        "method": "DELETE",
+        "sortNum": 0,
+        "created": "2023-07-16T00:23:08.576Z",
+        "modified": "2023-07-17T12:46:31.351Z",
+        "headers": [],
+        "params": [],
+        "tests": []
+    },
+    {
+        "_id": "26afb865-a5f4-4ff6-b96f-11314515ef8b",
+        "colId": "history",
+        "containerId": "",
+        "name": "https://localhost:3000/quizzes 2",
+        "url": "http://localhost:3000/quizzes",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2023-07-16T00:23:08.576Z",
+        "modified": "2023-07-17T13:21:38.272Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"question\": \"The first Soccer World Cup winner was _____.\",\n  \"answer\": \"Uruguay\"\n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "083bd0c6-54b4-41e0-a507-61fc0dd26217",
+        "colId": "history",
+        "containerId": "",
+        "name": "https://localhost:3000/quizzes",
+        "url": "http://localhost:3000/quizzes",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2023-07-16T00:23:08.576Z",
+        "modified": "2023-07-17T12:32:50.721Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"question\": \"Mars is a _____ in our solar system.\",\n  \"answer\": \"planet\"\n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "bafcf5ef-0d6b-4d04-84c4-27e3d0ac20c5",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3000/quizzes/1",
+        "url": "http://localhost:3000/quizzes/1",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-07-17T12:23:52.511Z",
+        "modified": "2023-07-17T12:46:05.257Z",
+        "headers": [],
+        "params": [],
+        "tests": []
+    }
+]
