@@ -9,20 +9,20 @@ class QuizzesController < ApplicationController
       # Call Cerego API to fetch distractors
       distractors = fetch_distractors(question, answer)
   
-      quiz_item = Quiz.create(question: question, answer: answer, distractors: distractors)
+      quiz = Quiz.create(question: question, answer: answer, distractors: distractors)
   
-      render json: quiz_item, status: :created
+      render json: quiz, status: :created
     end
     #READ
     def show
-      quiz_item = Quiz.find(params[:id])
-      render json: quiz_item
+      quiz = Quiz.find(params[:id])
+      render json: quiz, serializer: QuizzesSerializer
     end
   
      #DELETE
     def destroy
-      quiz_item = Quiz.find(params[:id])
-      quiz_item.destroy
+      quiz = Quiz.find(params[:id])
+      quiz.destroy
       head :no_content
     end
 
